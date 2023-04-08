@@ -1,0 +1,48 @@
+{
+  "name": "react-vite-tailwind-starter-kit",
+  "description": "React Vite Tailwind kit",
+  "version": "0.0.1",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "test": "vitest",
+    "test:watch": "vitest --watch"
+  },
+  "keywords": ["React", "Tailwind CSS", "Vite", "Starter kit", "Boilerplate", "Frontend development", "Rapid prototyping", "Modern web development", "UI components", "Webpack alternative"],
+  "author": "Juan Carlos Migliavacca",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/forms": "0.5.3",
+    "@testing-library/react": "13.4.0",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "@vitest/coverage-c8": "0.24.3",
+    "autoprefixer": "^10.4.14",
+    "eslint": "8.24.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-jsx-a11y": "6.6.1",
+    "eslint-plugin-react": "7.31.8",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "happy-dom": "^7.6.0",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.7",
+    "tailwindcss": "^3.3.1",
+    "vite": "^4.2.0",
+    "vitest": "0.24.3",
+    "vitest-fetch-mock": "0.2.1"
+  },
+  "dependencies": {
+    "@availity/block-ui": "^1.0.0",
+    "@tanstack/react-query": "4.10.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "6.4.1"
+  }
+}
