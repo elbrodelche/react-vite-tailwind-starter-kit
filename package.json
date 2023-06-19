@@ -11,7 +11,8 @@
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "test": "vitest",
-    "test:watch": "vitest --watch"
+    "test:watch": "vitest --watch",
+    "host": "vite --host"
   },
   "keywords": ["React", "Tailwind CSS", "Vite", "Starter kit", "Boilerplate", "Frontend development", "Rapid prototyping", "Modern web development", "UI components", "Webpack alternative"],
   "author": "Juan Carlos Migliavacca",

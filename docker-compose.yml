@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: react-ui
+    expose:
+      - "5173"
+    ports:
+      - "5173:5173"
+    command: npm run host
